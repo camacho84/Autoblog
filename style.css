@@ -1,0 +1,15 @@
+body {
+		font-family: Arial;
+		font-size: 12px;
+		background: grey;
+	}
+	header {
+		background-color: #84cb00;
+		padding: 5px;
+		text-align: center;
+	}
+
+	header nav a {	
+		background: rgb(19, 86, 19);
+		color: white;
+	}
