@@ -13,3 +13,11 @@ body {
 		background: rgb(19, 86, 19);
 		color: white;
 	}
+	main section {
+		overflow: hidden;
+	}
+
+	main section p img {
+		width: 600px;
+		float: left;
+	}
