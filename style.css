@@ -5,8 +5,15 @@ body {
 	}
 	header {
 		background-color: #84cb00;
+		background-image: url('images/cars.jpg');
 		padding: 5px;
 		text-align: center;
+		background-position-y: -60px;
+
+	}
+	header h1{
+		color: #fff;
+		text-shadow: 2px 2px #000;
 	}
 
 	header nav a {	
