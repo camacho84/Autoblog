@@ -18,6 +18,7 @@ body {
 	}
 
 	main section p img {
-		width: 600px;
+		width: 500px;
 		float: left;
+		margin-right: 5px;
 	}
