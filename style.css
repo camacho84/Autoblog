@@ -17,6 +17,22 @@ body {
 		overflow: hidden;
 	}
 
+	.background-red {
+		background: red;
+	}
+
+	.background-green {
+		background: green;
+	}
+
+	.background-aqua {
+		background: aqua;
+	}
+
+	main section.grey-section {
+		background: #f5f1f1;
+	}
+
 	main section p img {
 		width: 500px;
 		float: left;
