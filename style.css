@@ -13,12 +13,25 @@ body {
 		background: rgb(19, 86, 19);
 		color: white;
 	}
-	main section {
-		overflow: hidden;
+
+	main {
+		padding: 5px;
 	}
 
-	.background-red {
-		background: red;
+	header nav a:hover {
+		background: rgb(8, 255, 8);
+	}
+	main section {
+		overflow: hidden;
+		padding: 5px;
+	}
+
+	main section a:hover {
+		font-weight: bold;
+	}
+
+	.background-white {
+		background: white;
 	}
 
 	.background-green {
@@ -27,6 +40,9 @@ body {
 
 	.background-aqua {
 		background: aqua;
+	}
+	.main-link {
+		text-transform: uppercase;
 	}
 
 	main section.grey-section {
