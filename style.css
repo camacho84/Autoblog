@@ -17,9 +17,29 @@ body {
 	}
 
 	header nav a {	
+
 		background: rgb(19, 86, 19);
 		color: white;
+
+
+
+		position: relative;
+		display: inline-block;
+
+
+		border: 2px solid black;
+
+		text-align: center;
+
+		padding: 9px;
+		margin-top: 53px;
+
+		margin-left: 100px;
+
+
 	}
+
+
 
 	main {
 		padding: 5px;
