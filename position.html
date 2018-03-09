@@ -5,29 +5,82 @@
 		<title>Position test</title>
 	<style>
 
-	.wrapper {
-		background-color: yellow;
-	}
+	body {
 
-	.wrapper .box {
-		width: 100 px;
-		height: 100 px;
-		background: blue;
-		padding: 5 px;
-		color: white;
-		margin-top: 34 px;
-		margin-left: 200 px;
-	}
+	height: 1500px;
 
-	</style>
-	</head>
-	<body>
+}
+
+
+
+.wrapper {
+
+	position: relative;
+
+	width: 200px;
+
+	border: 2px solid black;
+
+	text-align: center;
+
+	padding: 30px;
+
+	margin-top: 100px;
+
+	margin-left: 100px;
+
+}
+
+
+
+.wrapper .box {
+
+	width: 20px;
+
+	height: 20px;
+
+	background: red;
+
+	padding: 5px;
+
+	color: white;
+
+	margin-top: 0;
+
+	margin-left: 0;
+
+	position: absolute;
+
+	top: 0;
+
+	/*
+
+	left: 100%;
+
+	margin-left: -10px;
+
+	margin-top: -10px;
+
+	*/
+
+	right: 0;
+
+	margin-right: -10px;
+
+	margin-top: -10px;
+
+}
+
+		</style>
+</head>
+<body>
 
 	<div class="wrapper">
+		Blog
 		<div class="box">
-			i'm box.
+			12
 		</div>
 	</div>
 
-	</body>
+</body>
 <html>
