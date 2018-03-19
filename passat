@@ -18,13 +18,13 @@
 
 		<main class="background-white">
 			<section>
-				<h2>Nowy Mercedes</h2>
+				<h2>Testy Passata</h2>
 				<article>
 					<p class="intro">
-						to super auto, warto je kupić do końca tego roku, ponieważ jest w dobrej cenie, a aktualnie mamy na niego super promocje 
+						W testach nowy Passat wypadł wyśmienicie. Twarde zawieszenie, solidna skrzynia biegów, mocne silniki i wygodne wnętrza. Polecamy 
 					</p>
 					<figure>
-						<img src="images/merc3.jpg" alt="Nowy  Mercedes">
+						<img src="images/passjpg.jpg" alt="Test Passata">
 						Nowy model Mercedesa z pokazu w Berlinie
 					</figure>
 					<!--<img src="images/merc3.jpg" alt="Nowy  Mercedes">
@@ -33,7 +33,7 @@
 					</div>
 				-->
 					<p>
-						Jest to bardzo dobre auto, jedno z lepszych w swojej klasie. Warto w niego zainwestować!
+						Solidny wózza dobre pieniądze!
 					</p>
 				</article>
 			<section>
