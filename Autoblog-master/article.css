@@ -1,0 +1,29 @@
+p.intro {
+	font-size: 17px;
+}
+
+/*main section article img {
+	width: 29%;
+	display: block;
+	margin: auto;
+}
+
+main section .image-description {
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+*/
+
+main section article figure img {
+	width: 29%;
+	display: block;
+	margin: auto;
+}
+
+main section article figure {
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	font-style: italic;
+}

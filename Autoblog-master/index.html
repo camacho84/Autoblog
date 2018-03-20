@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>AutoBlog.pl</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" type="text/css">
+
+		<style> 
+	@media only screen and (max-width: 800px) {
+		main section p img {
+			width: 100%;
+			margin: 0;
+		}
+	}	
+		.article {
+			display: inline-block;
+		}
+		.article .counter {
+			position: absolute;
+			padding: 5px;
+			background-color: red;
+			left: 100%;
+			top: 0;
+			width: 20px;
+			margin-left: -10px;
+			font-size: 10px;
+			margin-top: -5px;
+		}
+		</style>
+	</head>
+<body>
+		
+		<header style="background-color: #d6ea19;;">
+			<h1 class="top-headline"> AutoBlog</h1>
+			<nav>
+				<a class="article" href="index.html">Strona główna
+					<div class="counter">
+						2
+					</div>
+				</a>
+				<a href="wspolpraca.html">Współpraca</a>
+				<a href="Kontakt.html">Kontakt</a>
+			</nav>	
+		</header>
+	
+
+		<main class="background-white">
+			<section>
+				<h2>Nowy Mercedes</h2>
+				<p class="background-white">
+					<img src="images/merc.jpg" alt="Mercedes Benz 3.0">
+					Pojawił się nowy model mercedesa
+
+				</p>
+				<a href="nowy_mercedes.html">Kliknij i zobacz</a>
+			</section>
+			<hr>
+
+
+			<section class="grey-section">
+				<h2> Testy Passat </h2>
+				<p class="background-white">
+				<img src="images/passjpg.jpg" alt="Nowy Passat">
+				Testowany Passat wypadł wyśmienicie!
+			</p>
+
+				<a href="passat.html">Kliknij i zobacz</a>
+			</section>
+		</main>
+
+		<footer style="padding: 5px;">
+			&copy; AutoBlog 2018
+
+		</footer>
+	</body>
+
+</html>

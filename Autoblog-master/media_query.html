@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Progresywnosc</title>
+	<style>
+
+
+		.box {
+			background-color: green;
+			height: 100px;
+		}
+
+		@media only screen and (max-width: 1024px) {
+			.box {
+				background-color: pink;
+			}
+		}
+		@media only screen and (max-width: 640px) {
+			.box {
+				background-color: grey;
+			}
+		}
+		@media only screen and (max-width: 320px) {
+			.box {
+				background-color: red;
+			}
+
+		}
+		.child {
+			float: left;
+			width: 50%;
+			height: 50px;
+		}
+		.pink {
+			background-color: pink;
+
+		}
+		.grey {
+			background-color: grey;
+		}
+		.red {
+			background-color: red;
+		}
+		@media only screen and (max-width: 1024px) {
+			.child {
+				width: 100%;
+			}
+		}
+
+
+	</style>
+
+	<body> 
+
+		<div class="parrent">
+			<div class="child grey">1</div>
+			<div class="child red">2</div>
+			</div>
+
+		</div>
+
+	</body>
+</head>
